@@ -21,12 +21,12 @@
                 </div>
             );
         }
-
+    
 
         function Todo() {
 
             const [todo, setTodo] = useState([
-            {id: 1, text: '할일 목록을 추가할 것'}])
+            {id: 1, text: '할일 목록을 추가할 것', isCheck: false}])
             const [inputText, setInputText] = useState('');
             const [nextId, setNextId] = useState(2);
             
