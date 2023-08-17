@@ -1,0 +1,11 @@
+.PokemonItem{
+    width: 300px;
+    background-color: skyblue;
+    cursor: pointer;
+    color: black;
+}
+
+.PokemonItem:hover {
+    background-color: purple;
+    color: white;
+}
